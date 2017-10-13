@@ -1,0 +1,5 @@
+{
+  "HOSTNAME":"example.com",
+  "PORT":"23",
+  "TIMEOUT":5
+}
