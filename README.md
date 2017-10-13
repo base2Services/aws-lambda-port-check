@@ -75,6 +75,19 @@ For more complex example with failed health check, look at test/example.json
 
 ```bash
 
+$ sls invoke local -f portcheck -p test/example.json 
+Socket connect result: 35
+Sent data to CloudWatch requestId=:a840f551-afda-11e7-bfe8-532dcf9b380b
+Result of checking  example.com:23
+{
+    "TimeTaken": 5002,
+    "Available": "0"
+}
+{
+    "TimeTaken": 5002,
+    "Available": "0"
+}
+
 ```
 
 
