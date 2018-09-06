@@ -131,7 +131,7 @@ class ResultReporter:
                 print(f"Failed to publish metrics to CloudWatch:{e}")
 
 
-def port_check(event, context):
+def lambda_handler(event, context):
     """Lambda function handler"""
 
     config = Config(event)
