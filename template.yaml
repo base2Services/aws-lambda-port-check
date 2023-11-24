@@ -9,7 +9,7 @@ Resources:
     Properties:
       FunctionName: port-check
       Handler: handler.port_check
-      Runtime: python3.8
+      Runtime: python3.11
       CodeUri: handler.py
       Timeout: 300
       Policies:
